@@ -104,6 +104,11 @@ urlpatterns = [
         name="open_source_library_attack_lab",
     ),
     path(
+        "blind_sql_injection_lab",
+        views.blind_sql_injection_lab_page,
+        name="blind_sql_injection_lab",
+    ),
+    path(
         "cryptographic_failure/lab2",
         views.crypto_failure_lab2,
         name="cryptographic_failure_lab2",
