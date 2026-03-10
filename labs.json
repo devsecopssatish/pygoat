@@ -104,6 +104,11 @@
       "name": "xxe_lab",
       "build_location": "dockerized_labs/xxe_lab",
       "port": 5010
+    },
+    {
+      "name": "blind_sql_injection_lab",
+      "build_location": "dockerized_labs/blind_sql_injection_lab",
+      "port": 5023
     }
   ]
 }
